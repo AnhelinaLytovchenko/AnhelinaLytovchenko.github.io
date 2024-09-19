@@ -12,20 +12,19 @@ body {
 .container {
     display: grid;
     grid-template-columns: 0.5fr 2fr 0.75fr;
-    grid-template-rows: 0.7fr 2fr 0.03fr 0.7fr; 
+    grid-template-rows: 0.4fr 2fr 0.01fr 0.4fr;
     grid-template-areas:
         "header header header"
         "menu content sidebar"
         "menu footer sidebar"
         "menu bottom bottom";
     gap: 0;
-
     height: 100vh;
 }
 header {
     grid-area: header;
     background-color: #64403E;
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,7 +104,7 @@ footer {
 .bottom {
     grid-area: bottom;
     background-color: #6C6061;
-    padding: 10px;
+    padding: 15px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
