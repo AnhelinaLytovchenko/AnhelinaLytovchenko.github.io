@@ -103,7 +103,7 @@ footer {
 }
 .bottom {
     grid-area: bottom;
-    background-color: #6C6061;
+    background-color: #64403E;
     padding: 15px;
     display: flex;
     justify-content: flex-end;
@@ -116,7 +116,7 @@ footer {
     border-radius: 5px;
     font-size: 1.2em;
     font-weight: bold;
-    color: #64403E;
+    color: #333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 ul {
