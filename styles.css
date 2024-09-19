@@ -19,6 +19,7 @@ body {
         "menu footer sidebar"
         "menu bottom bottom";
     gap: 0;
+    
     height: 100vh;
 }
 header {
